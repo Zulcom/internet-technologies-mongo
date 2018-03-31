@@ -1,0 +1,14 @@
+extends layout
+
+
+block content
+    h1= 'Добавление объвления'
+    form(method='post' class='create-form')
+        label(for='title')   Заголовок
+            input(type='text' name='title' id='title')
+        textarea(cols='5' rows=5 name='body' id='body') Описание
+        label(for='price')   Цена
+            input(type='number' name='price' id='price')
+        label(for='img')   Ссылка на картинку
+            input(type='text' name='img' id='img')
+        button(type='submit')   Сохранить

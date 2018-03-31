@@ -1,0 +1,39 @@
+{
+  "name": "it-mongorent",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "SET DEBUG=it-mongorent:* & node ./bin/www"
+  },
+  "keywords": [
+    "mongo,express, rent ads"
+  ],
+  "homepage": "https://github.com/Zulcom/internet-technologies-mongo",
+  "bugs": "https://github.com/Zulcom/internet-technologies-mongo/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Semon Muravyov",
+    "url": "https://github.com/Zulcom/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zulcom/internet-technologies-mongo"
+  },
+  "engines": {
+    "node": ">=8.9.4",
+    "npm": ">=5.6.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "main": "app.js",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongodb": "^2.2.35",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  }
+}

@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+a {
+  color: #00B7FF;
+}
+.container{
+
+}
+.create-form label{
+  margin: 15px;
+}
+form.create-form {
+  display: flex; flex-direction: column;
+}
+.create-form textarea{
+  max-width: 200px;
+  margin: 15px;
+}
+.create-form button{
+  max-width: 100px;
+}

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    h1 Объявления
+    a(href='/create') Добавить
+    each val in ads
+        div
+            h2 #{val.title}
+            p  #{val.body}
+            img(src=val.img)
+            div
+                span Цена: #{val.price}р.
+            form(method='post' action='/delete')
+                input(type='hidden' name='id' value=val._id)
+                button(type='submit') Удалить
